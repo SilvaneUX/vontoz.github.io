@@ -1,0 +1,133 @@
+/* ========================== */
+
+.legen {
+  position: relative;
+  width: 25%;
+}
+
+.imagejum {
+  display: block;
+  border-radius: 45%;
+  width: auto;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  border-radius: 30%;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ED8D58;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.legen:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.textleg {
+  white-space: nowrap; 
+  
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/* ========================================== */
+.lead{
+  font-weight: bold;
+}
+
+.new{
+  
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  max-height: 20%;
+  z-index: 1;
+
+}
+
+/* ======================================= */
+
+
+.carousel{
+  background-color: rgba(88, 175, 237, 1);
+  border-radius: 2rem;  
+}
+
+
+a {
+  text-decoration: none;
+}
+
+#carimg {
+  border-radius: 2rem;  
+  opacity: 1;
+  display: block;
+ 
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.carousel-caption {
+  background-color: rgba(88, 175, 237, 1);
+  background-size: 50%;
+  border-radius: 6rem;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ED8D58;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 5rem;
+}
+
+.container:hover #carimg {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+
+
+/* ======================================= */
+
+#topleft {
+  border-radius: 5% 45% ;
+
+footer {
+  background-color: #595958;
+  font-style: italic;
+}
+#socmed {
+  background-color: #262625;
+}
+.carduxg {
+  border-radius: 25%;
+}
+
+/* ======================================= */
+
